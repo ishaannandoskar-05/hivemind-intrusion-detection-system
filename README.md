@@ -104,6 +104,7 @@ cd frontend && npm start
 Open **http://localhost:3000**
 
 ## Project Structure
+```bash
 hivemind-intrusion-detection-system/
 ├── agents/
 │   ├── traffic_collector.py        # Dataset loading and feature engineering
@@ -121,6 +122,7 @@ hivemind-intrusion-detection-system/
 ├── live_main.py                    # Launches all agents in parallel
 ├── docker-compose.yml              # Kafka setup
 └── .env.example                    # Environment variable template
+```
 ## License
 
 MIT
