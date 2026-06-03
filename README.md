@@ -3,6 +3,7 @@
 A real-time Host-based Intrusion Detection System (HIDS) that uses an ensemble of three ML models with strict majority voting to classify network traffic as Normal or Attack, achieving 99.38% accuracy and 0.97 ROC-AUC on 1.9M network flows from the CIC-IDS 2017 dataset.
 
 ## Architecture
+```bash
 Live Traffic (Scapy)
 ↓
 Kafka: raw_flows
@@ -14,6 +15,7 @@ Kafka: predictions
 Alert Agent → MongoDB Atlas
 ↓
 React Dashboard (Flask API)
+```
 ## Features
 
 - **Hivemind Voting** — all 3 models must agree to flag an Attack, reducing false positives by 95.5%
