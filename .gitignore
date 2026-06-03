@@ -1,0 +1,10 @@
+.env
+*.pkl
+__pycache__/
+node_modules/
+logs/
+combined_dataset.csv
+*.csv
+data/
+dataset/
+models/
